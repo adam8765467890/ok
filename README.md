@@ -1,7 +1,6 @@
 welcome
 
 <!DOCTYPE html>
-
 <html lang="ar">
 <head>
   
@@ -22,7 +21,7 @@ welcome
             padding: 0;
         }
         .container {
-            width: 80%;
+            width: 90%;
             margin: 0 auto;
             padding: 20px;
         }
@@ -36,13 +35,13 @@ welcome
             display: flex;
             flex-wrap: wrap;
             gap: 20px;
-            justify-content: space-between;
+            justify-content: space-evenly;
         }
         .event {
             background-color: #ffffff;
             border-radius: 10px;
             padding: 20px;
-            width: 32%; /* عرض كل حدث ليكون 32% */
+            width: 50%; /* عرض كل حدث ليكون 32% */
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s ease;
         }
@@ -79,6 +78,13 @@ welcome
             .event {
                 width: 100%; /* عند الشاشات الصغيرة يتم تعديل العرض إلى 100% */
             }
+        }
+        footer {
+            background-color: #fafafa;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 20px;
+            font-size: 16px;
         }
     </style>
     
@@ -286,6 +292,8 @@ welcome
             
         </div>
     </div>
+    <footer>كل الحقوق محفوظة &copy; 2025</footer>
+
     <script>
         function setCountdown(elementId, targetDate) {
             const countdownElement = document.getElementById(elementId);
@@ -333,3 +341,4 @@ welcome
     </script>
 </body>
 </html>
+
