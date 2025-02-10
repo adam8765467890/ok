@@ -72,16 +72,7 @@
         .event .more-info:hover {
             text-decoration: underline;
         }
-        @media screen and (max-width: 768px) {
-            .event {
-                width: 1000%; /* عند الشاشات الصغيرة يتم تعديل العرض إلى 100% */
-            }
-        }
-        @media screen and (max-width: 1700px) {
-            .event {
-                width: 1600%; /* عند الشاشات الصغيرة يتم تعديل العرض إلى 100% */
-            }
-        }
+
         footer {
             background-color: #fafafa;
             color: rgb(0, 0, 0);
