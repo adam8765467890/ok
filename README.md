@@ -1,9 +1,7 @@
-welcome
-
 <!DOCTYPE html>
 <html lang="ar">
 <head>
-  
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>الفعاليات الرياضية القادمة</title>
@@ -77,6 +75,12 @@ welcome
         @media screen and (max-width: 768px) {
             .event {
                 width: 100%; /* عند الشاشات الصغيرة يتم تعديل العرض إلى 100% */
+                width: 100%; /* عند الشاشات الصغيرة يتم تعديل العرض إلى 100% */
+            }
+        }
+        @media screen and (max-width: 1700px) {
+            .event {
+                width: 900%; /* عند الشاشات الصغيرة يتم تعديل العرض إلى 100% */
             }
         }
         footer {
@@ -91,7 +95,7 @@ welcome
 
 </head>
 <body>
-  
+
     <div class="container">
         <h1 class="header">الفعاليات الرياضية القادمة</h1>
         <div class="events">
@@ -341,4 +345,3 @@ welcome
     </script>
 </body>
 </html>
-
